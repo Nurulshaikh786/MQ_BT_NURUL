@@ -1,0 +1,135 @@
+:root {
+    --theme-green:#5EA51D;
+    --theme-bg:#F7F7F7;
+}
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+   font-family: 'Nunito';
+   background: var(--theme-bg);
+
+}
+
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    display: block;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: 25%;
+    padding: 15px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-start{
+    align-items: flex-start;
+}
+.align-items-center{
+   align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.text-align-center{
+    text-align: center;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+
+
+
+/* header start */
+.heading{
+    padding-top: 100px;
+    
+}
+.heading h2
+{
+    color: var(--theme-green);
+    font-size: 13px;
+    font-weight: 700;
+    margin: 5px;
+    
+}
+.heading h3{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #313131;
+}
+
+
+
+/* header start */
+
+.box{
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    margin-top: 100px;
+    
+}
+.box  span{
+    background-color: var(--theme-green);
+    top: 40%;
+    margin-left:20px;
+    color:var(--theme-bg) ;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+   
+}
+.box img{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+}
+
+.box .detail img{
+    margin: 10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+}
