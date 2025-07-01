@@ -36,7 +36,7 @@ ul{
     flex-wrap: wrap;
 }
 .col{
-    width: 25%;
+    width: 100%;
     padding: 15px;
 }
 .d-flex{
