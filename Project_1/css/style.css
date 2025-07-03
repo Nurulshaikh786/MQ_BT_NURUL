@@ -1,6 +1,8 @@
 :root {
     --theme-green:#5EA51D;
     --theme-bg:#F7F7F7;
+    --theme-detail:#00000099;
+    --theme-text-red:#de0303;
 }
 *{
     margin :0;
@@ -108,7 +110,7 @@ ul{
     margin-top: 100px;
     
 }
-.box  span{
+.box  .image span{
     background-color: var(--theme-green);
     top: 40%;
     margin-left:20px;
@@ -122,14 +124,78 @@ ul{
 .box img{
     height: 250px;
     width: 100%;
-    position: absolute;
+   
 }
 
-.box .detail img{
-    margin: 10px;
+.box .sec-content .profile-img {
     width: 36px;
     height: 36px;
-    border-radius: 100%;
-    position: absolute;
-    top: 50%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 5px;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.box .sec-content h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--theme-detail);
+    
+}
+.box .sec-content span {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--theme-detail);
+    
+}
+.sec-content{
+    padding: 25px;
+}
+
+.box .property-info p {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 20px 10px 10px 10px;
+    letter-spacing: 1px;
+}
+.box .property-info i {
+    font-size: 12px;
+    color: var(--theme-detail);
+    padding: 10px;
+}
+.box.property-info >span{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(250, 249, 249);
+    margin-left: 20px;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    background-color: var(--theme-green);
+    text-align: center;
+}
+.box .property-info .rent-1{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(255, 253, 253);
+    margin-left: 20px;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    background-color: var(--theme-text-red);
+    text-align: center;
+}
+.box .icons{
+    margin-top: 10px;
+}
+.box .icons img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ri-map-pin-2-fill{
+    color: var(--theme-green);
 }
